@@ -18,7 +18,11 @@ Also using Mooment.js, the program will keep track of the time and change the co
 Hitting the floppydisk icon on the left will save the text in the adjoining hour in localStorage, allowing the page to refresh without deleting your schedule.
 
 ## Screenshots
-![Schedule Screenshot](assets/images/workday-screenshot.jpg)
+<<<<<<< HEAD
+![Schedule Screenshot](assets/images/workday-screenshot.png)
+=======
+![Schedule Screenshot](assets/images/workday-screenshot.png)
+>>>>>>> 00b0a4820539dbc717d33b58f59413d1e70cc0b9
 
 
 ## Status
