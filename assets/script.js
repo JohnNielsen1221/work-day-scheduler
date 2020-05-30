@@ -1,4 +1,3 @@
-//todays date
 $('#currentDay').text(moment().format('dddd') + ", " + moment().format('MMMM Do YYYY'));
 
 var workHours = {
@@ -59,11 +58,6 @@ $("button").click(function() {
   
   saveSchedule(hourString, value);
 });
-
-function loadCorrectDataset() {
-  result = localStorage.getItem('workHours')
-  return (result ? result : workHours);
-}
 
 function initializeLocalStorage() {
   localStorage.setItem('workHours', JSON.stringify(workHours));

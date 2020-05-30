@@ -13,17 +13,12 @@
 This calendar will allow you to write in your schedule for the day by the hour, saving your schedule to local storage. It will also remind you of the current/past/or future hours by color coding each row.
 
 ## Functionality
-At the top of the page, we are using Moment.js to gather tell us the current day.
-Also using Mooment.js, the program will keep track of the time and change the color of the row based on whether it is a past hour (grey), current hour (red), or future hour (green).
+At the top of the page, we are using Moment.js to tell us the current day.
+Also using Moment.js, the program will keep track of the time and change the color of the row based on whether it is a past hour (grey), current hour (red), or future hour (green).
 Hitting the floppydisk icon on the left will save the text in the adjoining hour in localStorage, allowing the page to refresh without deleting your schedule.
 
 ## Screenshots
-<<<<<<< HEAD
 ![Schedule Screenshot](assets/images/workday-screenshot.png)
-=======
-![Schedule Screenshot](assets/images/workday-screenshot.png)
->>>>>>> 00b0a4820539dbc717d33b58f59413d1e70cc0b9
-
 
 ## Status
 Project is: _complete_ (for now)
